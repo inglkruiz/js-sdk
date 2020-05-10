@@ -6,14 +6,22 @@
   "scripts": {
     "clean": "rm -rf ./dist/*",
     "start": "parcel src/index.html",
-    "build": "parcel build src/index.html"
+    "build": "parcel build src/index.html",
+    "test": "jest --watch",
+    "test:all": "jest"
   },
   "keywords": [],
   "author": "Luis Carlos Ruiz Delgado",
   "contributors": [],
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "@babel/preset-typescript": "^7.9.0",
+    "@types/jest": "^25.2.1",
     "autoprefixer": "^9.7.6",
+    "babel-jest": "^26.0.1",
+    "jest": "^26.0.1",
     "parcel-bundler": "^1.12.4",
     "postcss-modules": "^2.0.0",
     "prettier": "^2.0.5",
