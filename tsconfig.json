@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "paths": {
+      // Use Parcel's ~ module loading convention to =>
+      // Tell typescript to use the baseUrl or paths directives in tsconfig.json
+      "~/*": ["./*"]
+    }
+  },
+  "include": ["src/**/*"]
+}
